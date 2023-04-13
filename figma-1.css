@@ -89,7 +89,9 @@ body {
     Width: 49.06px;
     Height: 49.06px;
 }
-.ellipse-2{
+
+.ellipse-2 {
+    display: none;
     position: absolute;
     top: -200px;
     left: 0px;
@@ -217,13 +219,16 @@ body {
 .travel-box-title {
     margin-bottom: 3.31px;
 }
-.title span{
+
+.title span {
     text-transform: uppercase;
 }
-.big{
+
+.big {
     font-size: 16px;
 }
-.small{
+
+.small {
     font-size: 10px;
 }
 
@@ -245,12 +250,10 @@ body {
     margin-left: -50px;
 }
 
-.trecias {
-    overflow: hidden;
-}
 
 .trecias-box-wrap {
     padding-top: 18px;
+    padding-right: 30px;
     margin-left: 32px;
     margin-bottom: 69px;
     padding-bottom: 18px;
@@ -273,13 +276,11 @@ body {
     z-index: -10;
 }
 
-.Rectangle-cube {
-    display: none;
-}
 
 .Rectangle-cube {
+    display: none;
     position: absolute;
-    right: 0;
+    right: -100px;
     bottom: 0;
     z-index: -10;
 }
@@ -310,7 +311,8 @@ body {
     margin-left: 3px;
 }
 
-.trecias-box.color, .trecias-box.color p {
+.trecias-box.color,
+.trecias-box.color p {
     color: #FFFFFF;
 }
 
@@ -521,6 +523,7 @@ textarea {
 @media screen and (min-width: 900px) {
     .container {
         padding: 0 30px;
+        padding-right: 100px;
     }
 
     .sandwich {
@@ -549,6 +552,10 @@ textarea {
     .ellipse {
         Width: 84px;
         Height: 84px;
+    }
+
+    .ellipse-2 {
+        display: block;
     }
 
     .tenisas-img {
@@ -621,6 +628,7 @@ textarea {
         height: 48px;
         margin-bottom: 16px;
     }
+
     .travel-box-title {
         margin-bottom: 12px;
     }
@@ -637,6 +645,7 @@ textarea {
     }
 
     .trecias-box-wrap {
+        padding-right: 100px;
         margin-left: 0;
         gap: 0;
         padding-bottom: 40px;
@@ -659,7 +668,7 @@ textarea {
     }
 
     .trecias-box {
-        min-width: 360px;
+        min-width: 330px;
         margin-left: 34px;
         padding: 83px 50px 72px 50px;
     }
@@ -675,14 +684,15 @@ textarea {
         letter-spacing: 0.04em;
     }
 
-    .big{
+    .big {
         font-size: 24px;
     }
-    .small{
+
+    .small {
         font-size: 16px;
     }
 
-    .trecias-box-title  {
+    .trecias-box-title {
         margin-top: 24px;
     }
 
@@ -705,7 +715,7 @@ textarea {
         padding-top: 50px;
         padding-bottom: 107px;
         gap: 40px;
-        margin-right: -30px;
+        margin-right: -100px;
     }
 
     .people-box {
@@ -729,9 +739,11 @@ textarea {
         background-position: center center;
         background-size: cover;
     }
+
     .people {
         padding-left: 0px;
     }
+
     .people-box img {
         height: 268px;
     }
