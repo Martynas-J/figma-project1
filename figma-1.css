@@ -89,6 +89,13 @@ body {
     Width: 49.06px;
     Height: 49.06px;
 }
+.ellipse-2{
+    position: absolute;
+    top: -200px;
+    left: 0px;
+    Width: 84px;
+    Height: 84px;
+}
 
 .tenisas-content {
     width: 140%;
@@ -206,16 +213,18 @@ body {
     border-radius: 4.30753px;
 }
 
-.travel-box-title img {
-    width: 72.69px;
-    height: 14px;
-    margin-bottom: 12px;
-}
 
 .travel-box-title {
-    /* width: 72.69px;
-    height: 16.69px; */
     margin-bottom: 3.31px;
+}
+.title span{
+    text-transform: uppercase;
+}
+.big{
+    font-size: 16px;
+}
+.small{
+    font-size: 10px;
 }
 
 .travel-box p {
@@ -229,10 +238,11 @@ body {
 }
 
 .travel .travel-img {
+    position: relative;
     display: block;
     background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
-    padding-left: 150px;
-    margin-left: -150px;
+    padding-left: 50px;
+    margin-left: -50px;
 }
 
 .trecias {
@@ -252,18 +262,9 @@ body {
 
 
 
-.trecias-title .mot {
-    padding-left: 48px;
+.trecias-title {
+    text-align: center;
 }
-
-.trecias-title .amet {
-    margin-left: -57px;
-}
-
-.trecias-title span {
-    display: none;
-}
-
 
 .point-cube {
     position: absolute;
@@ -291,6 +292,11 @@ body {
         linear-gradient(0deg, #FFFFFF, #FFFFFF);
 }
 
+.trecias-box img {
+    width: 27.93px;
+    height: 27.93px;
+}
+
 .trecias-box p {
     font-size: 8px;
     line-height: 11px;
@@ -304,7 +310,7 @@ body {
     margin-left: 3px;
 }
 
-.trecias-box.color p {
+.trecias-box.color, .trecias-box.color p {
     color: #FFFFFF;
 }
 
@@ -427,16 +433,6 @@ footer .container .box {
     width: 100%;
 }
 
-.license .title-img .au {
-    width: 48.4px;
-    height: 35.08px;
-}
-
-.license .title-img .ui {
-    width: 128.75px;
-    height: 14.88px;
-}
-
 .license p {
     font-weight: 400;
     font-size: 14px;
@@ -549,6 +545,7 @@ textarea {
     .tenisas-content {
         width: 50%;
     }
+
     .ellipse {
         Width: 84px;
         Height: 84px;
@@ -624,10 +621,7 @@ textarea {
         height: 48px;
         margin-bottom: 16px;
     }
-
-    .travel-box-title img {
-        width: 135px;
-        height: 22px;
+    .travel-box-title {
         margin-bottom: 12px;
     }
 
@@ -642,23 +636,10 @@ textarea {
         margin-bottom: 56px;
     }
 
-    .trecias-title .mot {
-        padding-left: 0;
-    }
-
-    .trecias-title .amet {
-        margin-left: 0;
-    }
-
-    .trecias-title span {
-        display: inline;
-    }
-
     .trecias-box-wrap {
+        margin-left: 0;
         gap: 0;
         padding-bottom: 40px;
-        padding-right: 140px;
-        margin-left: 106px;
         display: flex;
 
     }
@@ -694,20 +675,20 @@ textarea {
         letter-spacing: 0.04em;
     }
 
-    .trecias-box>img {
-        width: 64px;
-        height: 64px;
+    .big{
+        font-size: 24px;
+    }
+    .small{
+        font-size: 16px;
     }
 
-    .trecias-box-title img {
+    .trecias-box-title  {
         margin-top: 24px;
-        width: 193px;
-        height: 24px;
-        text-align: start;
     }
 
     .statistics {
         gap: 65px;
+        justify-content: flex-start;
     }
 
     .statistics-background {
@@ -748,7 +729,9 @@ textarea {
         background-position: center center;
         background-size: cover;
     }
-
+    .people {
+        padding-left: 0px;
+    }
     .people-box img {
         height: 268px;
     }
@@ -775,6 +758,8 @@ textarea {
 
     footer {
         padding-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .footer-wrap {
