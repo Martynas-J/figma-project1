@@ -1,0 +1,667 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+    font-family: Avenir Next;
+    font-style: normal;
+    margin: 0;
+}
+
+.button {
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.155em;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 13px 11.03px 13px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 175.51px;
+    background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+    box-shadow: 0px 10.0291px 20.0583px rgba(128, 143, 150, 0.19);
+    border-radius: 3px;
+}
+
+.container {
+    max-width: 1230px;
+    box-sizing: border-box;
+    /* padding: 0 32px; */
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+}
+
+.header-wrap .menu {
+    display: none;
+}
+
+.header-wrap .menu ul {
+    list-style-type: none;
+    font-variant: small-caps;
+    margin: 0;
+    display: inline;
+}
+
+.header-wrap .menu ul li {
+    display: inline-block;
+    padding-right: 48px;
+}
+
+.header-wrap .menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu .button {
+    display: inline;
+}
+
+.tenisas {
+    padding-left: 32px;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.tenisas-content {
+    width: 140%;
+}
+
+.tenisas-content h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 116%;
+    margin-bottom: 12.2px;
+    margin-top: 10px;
+}
+
+.tenisas p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+    margin-top: 0;
+    margin-bottom: 16.05px;
+}
+
+.tenisas-img {
+    width: 177.97px;
+    height: 304px;
+    background-image: url(./picture/Group\ 2574.png);
+    background-position: left center;
+    background-size: cover;
+}
+
+.travel {
+    padding-top: 72px;
+    padding-left: 32px;
+}
+
+.travel-content {
+    width: 60%;
+    ;
+}
+
+.travel-content p {
+    margin-top: 26px;
+    margin-bottom: 16px;
+    width: 130%;
+    font-size: 10px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+}
+
+.travel-title {
+    background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+    width: 235px;
+    margin-left: -32px;
+    margin-bottom: 16px;
+    padding-left: 32px;
+    padding-top: 10px;
+    padding-bottom: 9.5px;
+}
+
+.mot {
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #F3B562;
+}
+
+.amet {
+    font-size: 20px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #647B64;
+}
+
+.button {
+    width: 195.26px;
+}
+
+.travel-box-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin-top: 72px;
+    margin-bottom: 30px;
+}
+
+.travel-box {
+    padding: 22px 22px 24px 22px;
+}
+
+.travel-box:first-child {
+    background: #FFFFFF;
+    box-shadow: 0px 3.16301px 16.8694px rgba(155, 148, 148, 0.17);
+    border-radius: 4.30753px;
+}
+
+.travel-box .cube {
+    padding: 5px;
+    margin-bottom: 8.67px;
+    background: #FFFFFF;
+    box-shadow: 0px 2.15376px 2.15376px rgba(0, 0, 0, 0.04);
+    border-radius: 4.30753px;
+    width: 25.33px;
+    height: 25.33px;
+}
+
+.travel-box:first-child .cube {
+    background-color: #647B64;
+    border-radius: 4.30753px;
+}
+
+.travel-box-title img {
+    width: 72.69px;
+    height: 14px;
+    margin-bottom: 12px;
+}
+
+.travel-box-title {
+    /* width: 72.69px;
+    height: 16.69px; */
+    margin-bottom: 3.31px;
+}
+
+.travel-box p {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+    margin: 0;
+    max-width: none;
+}
+
+.travel .travel-img {
+    display: block;
+    background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+    padding-left: 150px;
+    margin-left: -150px;
+}
+
+.trecias-box-wrap {
+    padding-top: 18px;
+    margin-left: 32px;
+    margin-bottom: 69px;
+    padding-bottom: 18px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 17px;
+}
+
+.trecias-box-title {
+    text-align: start;
+
+}
+
+.trecias-box-title .mot {
+    padding-left: 48px;
+}
+
+.trecias-box-title .amet {
+    margin-left: -57px;
+}
+
+.trecias-box-title span {
+    display: none;
+}
+
+
+.point-cube {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+.trecias-box {
+    overflow-x: hidden;
+    width: 157.09px;
+    margin-left: 15px;
+    padding: 34px 22px 31px 22px;
+    background: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+.trecias-box p {
+    font-size: 8px;
+    line-height: 11px;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+}
+
+.trecias-box.color {
+    background: #647B64;
+    border-radius: 3.49091px;
+    margin-left: 3px;
+}
+
+.trecias-box.color p {
+    color: #FFFFFF;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 23px;
+    padding-right: 32px;
+    overflow: hidden;
+}
+
+.statistics-content {
+    /* width: 100%; */
+}
+
+.statistics-background {
+    width: 316.74px;
+    height: 307.59px;
+    background-image: url(./picture/Group\ 2571.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -30px;
+}
+
+.statistics-content p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+}
+
+.statistics-title .mot {
+    padding-bottom: 8px;
+}
+
+.statistics-title .amet {
+    line-height: 24px;
+    font-size: 22px;
+}
+
+
+
+.statistics-content .button img {
+    width: 12.27px;
+    height: 8.37px;
+}
+
+.people {
+    padding-left: 35px;
+    padding-top: 48px;
+}
+
+.people-title .mot {
+    padding-bottom: 8px;
+}
+
+.people-title .amet {
+    line-height: 24px;
+    font-size: 22px;
+}
+
+.people-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 26px;
+    overflow: hidden;
+}
+
+.people-box {
+    margin-top: 16px;
+    padding: 21px 16.58px 20px 26px;
+    background: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%), #FFFFFF;
+    border-radius: 5.18621px;
+    width: 233.38px;
+    position: relative;
+}
+
+.people-box img {
+    height: 173.74px;
+}
+
+.people-box p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 132%;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+}
+
+.people-work,
+.people-name {
+    background-image: url(./picture/work.png);
+    width: 98px;
+    height: 13px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 31.8px;
+    left: 119px;
+}
+
+.people-name {
+    background-image: url(./picture/Tayo\ Oshinuwa.png);
+    width: 81.76px;
+    height: 10.66px;
+    top: 48px;
+    left: 119px;
+}
+
+main {
+    padding-bottom: 65px;
+}
+
+footer {
+    background: #F0DCC5;
+    padding: 40px 60px 40px 32px;
+}
+
+footer .container .box {
+    width: 100%;
+}
+
+.license .title-img .au {
+    width: 48.4px;
+    height: 35.08px;
+}
+
+.license .title-img .ui {
+    width: 128.75px;
+    height: 14.88px;
+}
+
+.license p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+    margin-top: 17px;
+    margin-bottom: 16px;
+}
+
+.license .au-ui {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #4F4F4F;
+    margin-bottom: 8px;
+}
+
+.license ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+}
+
+.license ul li {
+    display: inline;
+    margin-right: 16px;
+
+}
+
+.company-support {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 44px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.company-title,
+.support-title,
+.messages-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #647B64;
+}
+
+.company-support ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.company-support ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'liga' off;
+    color: #333333;
+    padding-bottom: 8px;
+}
+
+.messages-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+}
+
+.messages .button {
+    margin-top: 28px;
+    width: 100%;
+    font-size: 12.4055px;
+    padding: 21px 22.72px 20.6px 22px;
+}
+
+@media screen and (min-width: 900px) {
+    .sandwich {
+        display: none;
+    }
+
+    .header-wrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .header-wrap .menu {
+        display: block;
+    }
+
+    .tenisas {
+        padding-top: 61px;
+        padding-right: 60px;
+        padding-left: 40px;
+    }
+
+    .tenisas-content {
+        width: 50%;
+    }
+
+    .tenisas-img {
+        width: 343px;
+        height: 585.91px;
+    }
+
+    .tenisas-content h1 {
+        font-size: 46px;
+        line-height: 116%;
+        font-variant: small-caps;
+        color: #333333;
+    }
+
+    .tenisas p {
+        font-size: 20px;
+    }
+
+    body main .button {
+        font-size: 16px;
+        width: 350px;
+        padding: 27px 29px 26px 29px;
+    }
+
+    .travel {
+        display: flex;
+        justify-content: space-between;
+        gap: 109px;
+        padding-left: 0;
+    }
+
+    .travel-content {
+        width: 37%;
+    }
+
+    .travel-img {
+        padding: 40px 56px 18px 150px;
+    }
+
+    .travel-content p {
+        width: auto;
+    }
+
+    .mot {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .amet {
+        font-size: 41px;
+        line-height: 110%;
+    }
+
+
+    .travel-box-wrap {
+        gap: 51px
+    }
+
+    .travel-box {
+        padding: 40px 27px 45px 40px;
+    }
+
+    .travel-box:first-child {
+        border-radius: 8px;
+    }
+
+    .travel-box .cube {
+        padding: 10px;
+        width: 48px;
+        height: 48px;
+        margin-bottom: 16px;
+    }
+
+    .travel-box-title img {
+        width: 135px;
+        height: 22px;
+        margin-bottom: 12px;
+    }
+
+    .travel-box p {
+        font-size: 13px;
+        line-height: 132%;
+    }
+
+    .trecias-box-title {
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 56px;
+    }
+
+    .trecias-box-title .mot {
+        padding-left: 0;
+    }
+
+    .trecias-box-title .amet {
+        margin-left: 0;
+    }
+
+    .trecias-box-title span {
+        display: inline;
+    }
+
+    .trecias-box-wrap {
+        gap: 25px;
+        padding-bottom: 40px;
+    }
+
+    .point-cube {
+        width: 214px;
+        height: 213px;
+    }
+    .point-cube img{
+        width: 100%;
+        height: 100%;
+    }
+    .trecias-box {
+        width: auto;
+        margin-left: 34px;
+        padding: 83px 50px 72px 50px;
+    }
+
+    .trecias-box p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 132%;
+        letter-spacing: 0.04em;
+    }
+
+    .footer-wrap {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 40px;
+    }
+
+    .company-support {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+}
