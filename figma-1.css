@@ -5,7 +5,8 @@
 }
 
 body {
-    background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 59%, rgba(250, 243, 238, 1) 100%);
     font-family: Avenir Next;
     font-style: normal;
     margin: 0;
@@ -81,8 +82,17 @@ body {
 
 }
 
+.ellipse {
+    position: absolute;
+    top: -20px;
+    left: 30%;
+    Width: 49.06px;
+    Height: 49.06px;
+}
+
 .tenisas-content {
     width: 140%;
+    position: relative;
 }
 
 .tenisas-content h1 {
@@ -345,11 +355,15 @@ body {
     padding-top: 48px;
 }
 
+.people-title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .people-title .mot {
     padding-bottom: 8px;
 }
-
-
 
 .people-wrap {
     display: grid;
@@ -534,6 +548,10 @@ textarea {
 
     .tenisas-content {
         width: 50%;
+    }
+    .ellipse {
+        Width: 84px;
+        Height: 84px;
     }
 
     .tenisas-img {
@@ -722,6 +740,15 @@ textarea {
         margin-bottom: 40px;
     }
 
+    .people-title-wrap::after {
+        content: " ";
+        background-image: url(./picture/Group\ 2560.png);
+        width: 142px;
+        height: 80px;
+        background-position: center center;
+        background-size: cover;
+    }
+
     .people-box img {
         height: 268px;
     }
@@ -745,9 +772,11 @@ textarea {
         height: 15px;
         top: 73px;
     }
+
     footer {
         padding-top: 100px;
     }
+
     .footer-wrap {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
