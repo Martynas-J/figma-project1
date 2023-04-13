@@ -155,6 +155,8 @@ body {
     line-height: 22px;
     text-transform: uppercase;
     color: #647B64;
+    line-height: 24px;
+
 }
 
 .button {
@@ -322,12 +324,6 @@ body {
     padding-bottom: 8px;
 }
 
-.statistics-title .amet {
-    line-height: 24px;
-    font-size: 22px;
-}
-
-
 
 .statistics-content .button img {
     width: 12.27px;
@@ -343,10 +339,7 @@ body {
     padding-bottom: 8px;
 }
 
-.people-title .amet {
-    line-height: 24px;
-    font-size: 22px;
-}
+
 
 .people-wrap {
     display: grid;
@@ -636,10 +629,12 @@ textarea {
         width: 214px;
         height: 213px;
     }
-    .point-cube img{
+
+    .point-cube img {
         width: 100%;
         height: 100%;
     }
+
     .trecias-box {
         width: auto;
         margin-left: 34px;
@@ -651,6 +646,62 @@ textarea {
         font-size: 16px;
         line-height: 132%;
         letter-spacing: 0.04em;
+    }
+
+    .statistics {
+        gap: 65px;
+    }
+
+    .statistics-background {
+        width: 623px;
+        height: 605px;
+        background-position: unset;
+    }
+
+    .statistics-content {
+        width: 37%;
+    }
+
+    .people-wrap {
+        padding-top: 50px;
+        padding-bottom: 107px;
+        gap: 40px;
+    }
+
+    .people-box {
+        width: 330px;
+        padding: 32px 60px 32px 40px;
+        margin: 0;
+    }
+
+    .statistics-content p {
+        font-size: 16px;
+        line-height: 132%;
+        margin-top: 24px;
+        margin-bottom: 40px;
+    }
+
+    .people-box img {
+        height: 268px;
+    }
+
+    .people-box p {
+        font-size: 16px;
+        line-height: 132%;
+    }
+
+    .people-work,
+    .people-name {
+        width: 132px;
+        height: 17px;
+        top: 49px;
+        left: 175px;
+    }
+    .people-name {
+        background-image: url(./picture/Tayo\ Oshinuwa.png);
+        width: 99px;
+        height: 15px;
+        top: 73px;
     }
 
     .footer-wrap {
